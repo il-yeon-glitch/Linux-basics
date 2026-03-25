@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-language-selector.desktop" score="28" last-seen="1773243324"/>
+    <application id="ibus-setup-hangul.desktop" score="3" last-seen="1773803469"/>
+    <application id="gnome-initial-setup.desktop" score="1" last-seen="1773243029"/>
+    <application id="org.gnome.Settings.desktop" score="13" last-seen="1773803486"/>
+    <application id="org.gnome.Terminal.desktop" score="430" last-seen="1773804561"/>
+  </context>
+</application-state>
