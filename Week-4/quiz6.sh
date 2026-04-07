@@ -1,5 +1,4 @@
 #!/bin/sh
+mkdir newLocation/
 touch toBeMoved.txt
-mkdir newLocation
 mv toBeMoved.txt newLocation/
-
