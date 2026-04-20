@@ -1,14 +1,12 @@
 #!/bin/sh
-
-# 1. 사용자로부터 커밋 메시지 입력 받기
-echo "커밋 메시지를 입력하세요:"
-read commitmessage
-
-# 2. 변경된 모든 파일 추가 (Add)
 git add .
 
-# 3. 입력받은 메시지로 커밋 기록 남기기 (Commit)
-git commit -m "$commitmessage"
+commitmsg=''
 
-# 4. 깃허브 서버로 업로드 (Push)
+echo "커밋 메시지 입력 : "
+read commitmsg
+echo "commitmsg: $commitmsg"
+
+git commit -m "$commitmsg"
+#뛰어쓰기 때문에 "을 필수 사용하고 -m 옵션을 사용해서 한줄로 처리 하게끔 수정해야함
 git push origin main
